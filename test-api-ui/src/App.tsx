@@ -5,7 +5,6 @@ export default function App({ initialError = "" }) {
   const [url, setUrl] = React.useState("");
   const [runCount, setRunCount] = React.useState(20);
   const [loading, setLoading] = React.useState(false);
-  const [logs, setLogs] = React.useState<string[]>([]);
   const [error, setError] = React.useState(initialError);
   const [success, setSuccess] = React.useState(false);
   const [domain, setDomain] = React.useState("");
@@ -52,7 +51,6 @@ export default function App({ initialError = "" }) {
     }
     setLoading(true);
     setError("");
-    setLogs([]);
 
     try {
       const response = await fetch(

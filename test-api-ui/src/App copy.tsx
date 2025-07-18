@@ -171,10 +171,12 @@ export default function App({ initialResults = [], initialError = "" }) {
 
       {error && <p className="error">{error}</p>}
 
-      <div className="form-group">
-        <h2 className="text-lg font-semibold text-gray-800 mb-2">Logs</h2>
-        <div id="logs" className="logs"></div>
-      </div>
+      {logs && (
+        <div className="form-group">
+          <h2 className="text-lg font-semibold text-gray-800 mb-2">Logs</h2>
+          <div id="logs" className="logs"></div>
+        </div>
+      )}
 
       {results.length > 0 && (
         <div className="form-group">
