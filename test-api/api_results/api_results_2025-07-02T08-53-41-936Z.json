@@ -1,0 +1,158 @@
+[
+  {
+    "url": "https://devshopify.ipblocker.io/api/locales/en/dashboard.json",
+    "method": "GET",
+    "runCount": 2,
+    "averageResponseTime": "154.79",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 2
+    },
+    "sampleResponseData": "{\"action_required_activate_app_embed\":\"Action required: Activate app embed\",\"activate_app_embed\":\"Activate app embed\",\"activate_app_now\":\"Activate app now\",\"activate_display_blockify_blocking_page\":\"Activate to display Blockify's blocking page.\",\"active_rules\":\"Active rules\",\"app_plan\":\"App plan\",\"automate_delivery_paypal\":\"You can automate this by sending proof of delivery to PayPal using Synctrack.\",\"ban_your_account_permanently\":\"Ban your account permanently\",\"better_relationship_paypal_strip"
+  },
+  {
+    "url": "https://devshopify.ipblocker.io/api/locales/en/visitor_analytics.json",
+    "method": "GET",
+    "runCount": 2,
+    "averageResponseTime": "205.74",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 2
+    },
+    "sampleResponseData": "{\"access_denied_reason\":\"Access denied reason\",\"access_detail\":\"Access detail\",\"access_log\":\"Access log\",\"action\":\"Action\",\"activate_visitor_analytics\":\"Activate Visitor Analytics\",\"add_filter\":\"Add filter\",\"add_ip_to_blacklist\":\"Add IP to blacklist\",\"add_to_blacklist\":\"Add to the blacklist\",\"all\":\"All\",\"allowed_visitor\":\"Allowed visitor\",\"allowed_visitor_heatmap\":\"Allowed visitor heatmap\",\"allowed_visitors\":\"Allowed visitors\",\"average_durations\":\"Average Durations\",\"blocked_detail\":\"Blocked det"
+  },
+  {
+    "url": "https://devshopify.ipblocker.io/api/locales/en/settings.json",
+    "method": "GET",
+    "runCount": 2,
+    "averageResponseTime": "205.58",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 2
+    },
+    "sampleResponseData": "{\"access_url_not_blocked\":\"Access via the above URL will not be blocked under any circumstances. Please don't disclose the link.\",\"action\":\"Action\",\"activate_blockify\":\"Activate Blockify\",\"admins_access_url\":\"Admin's access URL\",\"allowed_bot_list\":\"Allowed bot list\",\"apply_custom_css_blocking_page\":\"Apply custom CSS to personalize the style and layout of the blocking page.\",\"auto_block_visitors\":\"Auto-block visitors\",\"auto_block_visitors_description\":\"Turn on to auto-block visitors even when the"
+  },
+  {
+    "url": "https://devshopify.ipblocker.io/api/locales/en/block_checkout.json",
+    "method": "GET",
+    "runCount": 2,
+    "averageResponseTime": "205.16",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 2
+    },
+    "sampleResponseData": "{\"address\":\"Address\",\"auto_block_orders_zero_subtotal\":\"Auto-block creating orders with a subtotal of 0 and matching last name with first name.\",\"block_access_checkout\":\"Block access checkout\",\"block_checkout\":\"Block checkout\",\"block_checkout_access\":\"Block checkout access\",\"block_checkout_enterprise_only\":\"Block Checkout feature is available for Enterprise plan only.\",\"block_checkout_feature_shopify_plus\":\"Block Checkout feature is available for Shopify Plus plan only.\",\"block_checkout_fields\":"
+  },
+  {
+    "url": "https://devshopify.ipblocker.io/manifest.json",
+    "method": "GET",
+    "runCount": 2,
+    "averageResponseTime": "115.41",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 2
+    },
+    "sampleResponseData": "{\"short_name\":\"IP Blocker & Country Redirect\",\"name\":\"IP Blocker & Country Redirect\",\"icons\":[{\"src\":\"favicon.ico\",\"sizes\":\"64x64 32x32 24x24 16x16\",\"type\":\"image/x-icon\"}],\"start_url\":\".\",\"display\":\"standalone\",\"theme_color\":\"#000000\",\"background_color\":\"#ffffff\"}"
+  },
+  {
+    "url": "https://devshopify.ipblocker.io/api/locales/en/common.json",
+    "method": "GET",
+    "runCount": 2,
+    "averageResponseTime": "207.01",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 2
+    },
+    "sampleResponseData": "{\"1_day_ago\":\"1 day ago\",\"1_hour_ago\":\"1 hour ago\",\"1_minute_ago\":\"1 minute ago\",\"1_month_ago\":\"1 month ago\",\"1_year_ago\":\"1 year ago\",\"about_referrer_url\":\"about referrer URL\",\"action\":\"Action\",\"active_rules_free_plan\":\"active rules of the Free plan. Increase the limit to add more rules.\",\"active_rules_limit_reached\":\"active rules of the Free plan. You nearly reach the limitation of Free plan. Increase the limit to add more rules.\",\"all\":\"All\",\"allow\":\"Allow\",\"analyze_old_orders\":\"Analyze old o"
+  },
+  {
+    "url": "https://devshopify.ipblocker.io/api/locales/en/pricing.json",
+    "method": "GET",
+    "runCount": 2,
+    "averageResponseTime": "274.07",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 2
+    },
+    "sampleResponseData": "{\"address_start_with\":\"Address, Start with\",\"all_details_of_the_blockify_plans\":\"All details of the Blockify’s plans\",\"all_included_in_premium_enterprise\":\"All includes in Premium, Enterprise\",\"all_includes_in_free\":\"All includes in Free\",\"all_includes_in_premium\":\"All includes in Premium\",\"and\":\"and\",\"app_pricing_subscription\":\"Our app pricing is subscription charge based, we will be charged via Shopify Payment, following the\",\"app_pricing_work\":\"How does this app pricing work?\",\"app_subscripti"
+  },
+  {
+    "url": "https://devshopify.ipblocker.io/api/locales/en/fraud_orders.json",
+    "method": "GET",
+    "runCount": 2,
+    "averageResponseTime": "274.26",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 2
+    },
+    "sampleResponseData": "{\"action\":\"Action\",\"auto_block_fraud_orders\":\"Auto-block visitors placing fraud orders\",\"auto_block_visitors\":\"Auto-block visitors\",\"auto_refund_on_order_cancellation\":\"Auto-refund when canceling the orders\",\"block_ip\":\"Block IP\",\"blocked\":\"Blocked\",\"cancel_order\":\"Cancel order\",\"canceled\":\"Canceled\",\"created_time\":\"Created time \",\"data_demo\":\"data demo\",\"delete_order_immediately\":\"Delete the order immediately (only for COD orders)\",\"demo_fraud_order_analytics\":\"This is only a demo data of Fraud"
+  },
+  {
+    "url": "https://devshopify.ipblocker.io/api/locales/en/modal_search.json",
+    "method": "GET",
+    "runCount": 2,
+    "averageResponseTime": "254.56",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 2
+    },
+    "sampleResponseData": "{\"visitor_analytics\":\"Visitor analytics\",\"allowed_visitors\":\"Allowed visitors\",\"blocked_visitors\":\"Blocked visitors\",\"daily_visit_trends\":\"Daily visit trends\",\"block_and_redirector\":\"Block & redirector\",\"block_ip_address\":\"Block IP address\",\"block_location\":\"Block location\",\"whitelist_ip_address\":\"Whitelist IP address\",\"whitelist_location\":\"Whitelist location\",\"redirect_location\":\"Redirect location\",\"fraud_order_analytics\":\"Fraud order analytics\",\"auto_block_visitor_placing_fraud_orders\":\"Auto-b"
+  },
+  {
+    "url": "https://devshopify.ipblocker.io/api/locales/en/block_redirect.json",
+    "method": "GET",
+    "runCount": 2,
+    "averageResponseTime": "240.92",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 2
+    },
+    "sampleResponseData": "{\"block_re_director\":\"Block & Re-director\",\"blockify_checkout_app\":\"Introducing Blockify: Checkout, a FREE app from the Blockify brand! Protect your store from fraud by hiding payment methods in unsupported countries or based on conditions like cart value, customer name, and email address. Validate low-value orders and keep your checkout safe and efficient with Blockify: Checkout.\",\"checkout_control_app\":\"Lets you take control of your checkout process with a FREE app - Blockify: Checkout. Hidesh"
+  },
+  {
+    "url": "https://devshopify.ipblocker.io/api/setting/general-detail?shop=binhnt-dev.myshopify.com&urlParams=%22%7B%5C%22store%5C%22%3A%5C%22binhnt-dev.myshopify.com%5C%22%2C%5C%22urlParams%5C%22%3A%5C%22%7B%5C%5C%5C%22api_key%5C%5C%5C%22%3A%5C%5C%5C%2236382d0694a35df6b4378045258150f4%5C%5C%5C%22%2C%5C%5C%5C%22store%5C%5C%5C%22%3A%5C%5C%5C%22binhnt-dev.myshopify.com%5C%5C%5C%22%2C%5C%5C%5C%22scope%5C%5C%5C%22%3A%5C%5C%5C%22omegatheme%5C%5C%5C%22%7D%5C%22%2C%5C%22role%5C%22%3A%5C%22admin%5C%22%7D%22",
+    "method": "GET",
+    "runCount": 2,
+    "averageResponseTime": "178.64",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 2
+    },
+    "sampleResponseData": "{\"state\":1,\"msg\":\"successfully\",\"settings\":{\"id\":257,\"activeVpnProxy\":false,\"typeRestrictionVpnProxy\":\"1\",\"linkRedirectVpnProxy\":\"https://google.com/\",\"vpnRiskCore\":70,\"allowVpnFromPrivateRelay\":false,\"protectTexts\":false,\"protectImages\":false,\"protectContents\":false,\"disableRightClick\":false,\"disableKeyboardShortcut\":false,\"disableInspect\":false,\"disableDrag\":false,\"disablePrint\":false,\"disableScreenCapture\":false,\"disableSpyExtensions\":true,\"hasReview\":false,\"createdAt\":\"2025-01-20T08:58:39.91"
+  },
+  {
+    "url": "https://us.i.posthog.com/flags/?v=2&config=true&ip=0&_=1751446409889&ver=1.256.1&compression=base64",
+    "method": "POST",
+    "runCount": 1,
+    "averageResponseTime": "879.02",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 1
+    },
+    "sampleResponseData": "{\"errorsWhileComputingFlags\":false,\"flags\":{},\"requestId\":\"fbb21d14-3a5e-4012-a4ee-540c5aff87c0\",\"supportedCompression\":[\"gzip\",\"gzip-js\"],\"autocapture_opt_out\":false,\"capturePerformance\":{\"network_timing\":true,\"web_vitals\":true,\"web_vitals_allowed_metrics\":null},\"config\":{\"enable_collect_everything\":true},\"analytics\":{\"endpoint\":\"/i/v0/e/\"},\"elementsChainAsString\":true,\"autocaptureExceptions\":false,\"sessionRecording\":{\"endpoint\":\"/s/\",\"consoleLogRecordingEnabled\":true,\"recorderVersion\":\"v2\",\"sa"
+  },
+  {
+    "url": "https://us.i.posthog.com/flags/?v=2&config=true&ip=0&_=1751446415874&ver=1.256.1&compression=base64",
+    "method": "POST",
+    "runCount": 1,
+    "averageResponseTime": "289.51",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 1
+    },
+    "sampleResponseData": "{\"errorsWhileComputingFlags\":false,\"flags\":{},\"requestId\":\"21a0d065-e3fc-4af9-aebc-4a3c88711c5e\",\"supportedCompression\":[\"gzip\",\"gzip-js\"],\"autocapture_opt_out\":false,\"capturePerformance\":{\"network_timing\":true,\"web_vitals\":true,\"web_vitals_allowed_metrics\":null},\"config\":{\"enable_collect_everything\":true},\"analytics\":{\"endpoint\":\"/i/v0/e/\"},\"elementsChainAsString\":true,\"autocaptureExceptions\":false,\"sessionRecording\":{\"endpoint\":\"/s/\",\"consoleLogRecordingEnabled\":true,\"recorderVersion\":\"v2\",\"sa"
+  }
+]

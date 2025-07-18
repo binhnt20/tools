@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://api2.amplitude.com/2/httpapi",
+    "method": "POST",
+    "runCount": 2,
+    "averageResponseTime": "223.20",
+    "averageResponseSize": "92.50",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 2
+    },
+    "sampleResponseData": "{\"code\":200,\"server_upload_time\":1751449114428,\"payload_size_bytes\":2242,\"events_ingested\":3}"
+  },
+  {
+    "url": "https://xn--bnhnt-tsa.vn/manifest.json",
+    "method": "GET",
+    "runCount": 2,
+    "averageResponseTime": "110.41",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 2
+    },
+    "sampleResponseData": "{\"short_name\":\"Binh's profile website\",\"name\":\"Binh's profile website\",\"icons\":[{\"src\":\"favicon.ico\",\"sizes\":\"64x64 32x32 24x24 16x16\",\"type\":\"image/x-icon\"}],\"start_url\":\".\",\"display\":\"standalone\",\"theme_color\":\"#000000\",\"background_color\":\"#ffffff\"}"
+  }
+]

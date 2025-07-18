@@ -1,0 +1,218 @@
+[
+  {
+    "url": "https://apps-shopify.ipblocker.io/s/api/locales/en/block_checkout.json",
+    "method": "GET",
+    "runCount": 8,
+    "averageResponseTime": "317.30",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 8
+    },
+    "sampleResponseData": "{\"address\":\"Address\",\"auto_block_orders_zero_subtotal\":\"Auto-block creating orders with a subtotal of 0 and matching last name with first name.\",\"block_access_checkout\":\"Block access checkout\",\"block_checkout\":\"Block checkout\",\"block_checkout_access\":\"Block checkout access\",\"block_checkout_enterprise_only\":\"Block Checkout feature is available for Enterprise plan only.\",\"block_checkout_feature_shopify_plus\":\"Block Checkout feature is available for Shopify Plus plan only.\",\"block_checkout_fields\":"
+  },
+  {
+    "url": "https://apps-shopify.ipblocker.io/s/api/locales/en/dashboard.json",
+    "method": "GET",
+    "runCount": 8,
+    "averageResponseTime": "320.05",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 8
+    },
+    "sampleResponseData": "{\"action_required_activate_app_embed\":\"Action required: Activate app embed\",\"activate_app_embed\":\"Activate app embed\",\"activate_app_now\":\"Activate app now\",\"activate_display_blockify_blocking_page\":\"Activate to display Blockify's blocking page.\",\"active_rules\":\"Active rules\",\"app_plan\":\"App plan\",\"automate_delivery_paypal\":\"You can automate this by sending proof of delivery to PayPal using Synctrack.\",\"ban_your_account_permanently\":\"Ban your account permanently\",\"better_relationship_paypal_strip"
+  },
+  {
+    "url": "https://apps-shopify.ipblocker.io/s/api/locales/en/visitor_analytics.json",
+    "method": "GET",
+    "runCount": 8,
+    "averageResponseTime": "453.34",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 8
+    },
+    "sampleResponseData": "{\"access_denied_reason\":\"Access denied reason\",\"access_detail\":\"Access detail\",\"access_log\":\"Access log\",\"action\":\"Action\",\"activate_visitor_analytics\":\"Activate Visitor Analytics\",\"add_filter\":\"Add filter\",\"add_ip_to_blacklist\":\"Add IP to blacklist\",\"add_to_blacklist\":\"Add to the blacklist\",\"all\":\"All\",\"allowed_visitor\":\"Allowed visitor\",\"allowed_visitor_heatmap\":\"Allowed visitor heatmap\",\"allowed_visitors\":\"Allowed visitors\",\"average_durations\":\"Average Durations\",\"blocked_detail\":\"Blocked det"
+  },
+  {
+    "url": "https://apps-shopify.ipblocker.io/s/api/locales/en/settings.json",
+    "method": "GET",
+    "runCount": 8,
+    "averageResponseTime": "381.88",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 8
+    },
+    "sampleResponseData": "{\"access_url_not_blocked\":\"Access via the above URL will not be blocked under any circumstances. Please don't disclose the link.\",\"action\":\"Action\",\"activate_blockify\":\"Activate Blockify\",\"admins_access_url\":\"Admin's access URL\",\"allowed_bot_list\":\"Allowed bot list\",\"apply_custom_css_blocking_page\":\"Apply custom CSS to personalize the style and layout of the blocking page.\",\"auto_block_visitors\":\"Auto-block visitors\",\"auto_block_visitors_description\":\"Turn on to auto-block visitors even when the"
+  },
+  {
+    "url": "https://apps-shopify.ipblocker.io/s/api/locales/en/common.json",
+    "method": "GET",
+    "runCount": 8,
+    "averageResponseTime": "383.01",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 8
+    },
+    "sampleResponseData": "{\"1_day_ago\":\"1 day ago\",\"1_hour_ago\":\"1 hour ago\",\"1_minute_ago\":\"1 minute ago\",\"1_month_ago\":\"1 month ago\",\"1_year_ago\":\"1 year ago\",\"about_referrer_url\":\"about referrer URL\",\"action\":\"Action\",\"active_rules_free_plan\":\"active rules of the Free plan. Increase the limit to add more rules.\",\"active_rules_limit_reached\":\"active rules of the Free plan. You nearly reach the limitation of Free plan. Increase the limit to add more rules.\",\"all\":\"All\",\"allow\":\"Allow\",\"analyze_old_orders\":\"Analyze old o"
+  },
+  {
+    "url": "https://apps-shopify.ipblocker.io/s/api/locales/en/block_redirect.json",
+    "method": "GET",
+    "runCount": 8,
+    "averageResponseTime": "395.00",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 8
+    },
+    "sampleResponseData": "{\"block_re_director\":\"Block & Re-director\",\"blockify_checkout_app\":\"Introducing Blockify: Checkout, a FREE app from the Blockify brand! Protect your store from fraud by hiding payment methods in unsupported countries or based on conditions like cart value, customer name, and email address. Validate low-value orders and keep your checkout safe and efficient with Blockify: Checkout.\",\"checkout_control_app\":\"Lets you take control of your checkout process with a FREE app - Blockify: Checkout. Hidesh"
+  },
+  {
+    "url": "https://apps-shopify.ipblocker.io/s/api/locales/en/pricing.json",
+    "method": "GET",
+    "runCount": 8,
+    "averageResponseTime": "588.64",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 8
+    },
+    "sampleResponseData": "{\"address_start_with\":\"Address, Start with\",\"all_details_of_the_blockify_plans\":\"All details of the Blockify’s plans\",\"all_included_in_premium_enterprise\":\"All includes in Premium, Enterprise\",\"all_includes_in_free\":\"All includes in Free\",\"all_includes_in_premium\":\"All includes in Premium\",\"and\":\"and\",\"app_pricing_subscription\":\"Our app pricing is subscription charge based, we will be charged via Shopify Payment, following the\",\"app_pricing_work\":\"How does this app pricing work?\",\"app_subscripti"
+  },
+  {
+    "url": "https://apps-shopify.ipblocker.io/s/api/locales/en/fraud_orders.json",
+    "method": "GET",
+    "runCount": 8,
+    "averageResponseTime": "387.18",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 8
+    },
+    "sampleResponseData": "{\"action\":\"Action\",\"auto_block_fraud_orders\":\"Auto-block visitors placing fraud orders\",\"auto_block_visitors\":\"Auto-block visitors\",\"auto_refund_on_order_cancellation\":\"Auto-refund when canceling the orders\",\"block_ip\":\"Block IP\",\"blocked\":\"Blocked\",\"cancel_order\":\"Cancel order\",\"canceled\":\"Canceled\",\"created_time\":\"Created time \",\"data_demo\":\"data demo\",\"delete_order_immediately\":\"Delete the order immediately (only for COD orders)\",\"demo_fraud_order_analytics\":\"This is only a demo data of Fraud"
+  },
+  {
+    "url": "https://apps-shopify.ipblocker.io/s/api/locales/en/modal_search.json",
+    "method": "GET",
+    "runCount": 8,
+    "averageResponseTime": "391.25",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 8
+    },
+    "sampleResponseData": "{\"visitor_analytics\":\"Visitor analytics\",\"allowed_visitors\":\"Allowed visitors\",\"blocked_visitors\":\"Blocked visitors\",\"daily_visit_trends\":\"Daily visit trends\",\"block_and_redirector\":\"Block & redirector\",\"block_ip_address\":\"Block IP address\",\"block_location\":\"Block location\",\"whitelist_ip_address\":\"Whitelist IP address\",\"whitelist_location\":\"Whitelist location\",\"redirect_location\":\"Redirect location\",\"fraud_order_analytics\":\"Fraud order analytics\",\"auto_block_visitor_placing_fraud_orders\":\"Auto-b"
+  },
+  {
+    "url": "https://apps-shopify.ipblocker.io/s/api/setting/general-detail?shop=binhnt-dev.myshopify.com&urlParams=%22%7B%5C%22store%5C%22%3A%5C%22binhnt-dev.myshopify.com%5C%22%2C%5C%22urlParams%5C%22%3A%5C%22%7B%5C%5C%5C%22api_key%5C%5C%5C%22%3A%5C%5C%5C%221fea2c06cad29a7a2ff47ed9c5b1b5cc%5C%5C%5C%22%2C%5C%5C%5C%22store%5C%5C%5C%22%3A%5C%5C%5C%22binhnt-dev.myshopify.com%5C%5C%5C%22%2C%5C%5C%5C%22scope%5C%5C%5C%22%3A%5C%5C%5C%22omegatheme%5C%5C%5C%22%7D%5C%22%2C%5C%22role%5C%22%3A%5C%22admin%5C%22%2C%5C%22source%5C%22%3A%5C%22admin%5C%22%2C%5C%22token%5C%22%3A%5C%22eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjksInVzZXJuYW1lIjoiYmluaG50IiwiaWF0IjoxNzUxNDQ4NzMxLCJleHAiOjE3NTIwNTM1MzF9.pH86e8wuuzPcB949FYhnjQR0LuYnSbHmFHXlPbISeYM%5C%22%7D%22",
+    "method": "GET",
+    "runCount": 8,
+    "averageResponseTime": "461.12",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 8
+    },
+    "sampleResponseData": "{\"state\":1,\"msg\":\"successfully\",\"settings\":{\"id\":5854,\"activeVpnProxy\":false,\"typeRestrictionVpnProxy\":\"1\",\"linkRedirectVpnProxy\":\"https://google.com/\",\"vpnRiskCore\":66,\"allowVpnFromPrivateRelay\":false,\"protectTexts\":false,\"protectImages\":false,\"protectContents\":false,\"disableRightClick\":false,\"disableKeyboardShortcut\":false,\"disableInspect\":false,\"disableDrag\":false,\"disablePrint\":false,\"disableScreenCapture\":false,\"disableSpyExtensions\":false,\"hasReview\":false,\"createdAt\":\"2024-06-07T08:51:22."
+  },
+  {
+    "url": "https://apps-shopify.ipblocker.io/s/api/setting/list?shop=binhnt-dev.myshopify.com&urlParams=%22%7B%5C%22store%5C%22%3A%5C%22binhnt-dev.myshopify.com%5C%22%2C%5C%22urlParams%5C%22%3A%5C%22%7B%5C%5C%5C%22api_key%5C%5C%5C%22%3A%5C%5C%5C%221fea2c06cad29a7a2ff47ed9c5b1b5cc%5C%5C%5C%22%2C%5C%5C%5C%22store%5C%5C%5C%22%3A%5C%5C%5C%22binhnt-dev.myshopify.com%5C%5C%5C%22%2C%5C%5C%5C%22scope%5C%5C%5C%22%3A%5C%5C%5C%22omegatheme%5C%5C%5C%22%7D%5C%22%2C%5C%22role%5C%22%3A%5C%22admin%5C%22%2C%5C%22source%5C%22%3A%5C%22admin%5C%22%2C%5C%22token%5C%22%3A%5C%22eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjksInVzZXJuYW1lIjoiYmluaG50IiwiaWF0IjoxNzUxNDQ4NzMxLCJleHAiOjE3NTIwNTM1MzF9.pH86e8wuuzPcB949FYhnjQR0LuYnSbHmFHXlPbISeYM%5C%22%7D%22&priority=2&search=&criteria=&perPage=10&sort=DESC&sortBy=createdAt&page=1",
+    "method": "GET",
+    "runCount": 7,
+    "averageResponseTime": "345.99",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 7
+    },
+    "sampleResponseData": null
+  },
+  {
+    "url": "https://apps-shopify.ipblocker.io/s/api/setting/rules/summary?shop=binhnt-dev.myshopify.com&urlParams=%22%7B%5C%22store%5C%22%3A%5C%22binhnt-dev.myshopify.com%5C%22%2C%5C%22urlParams%5C%22%3A%5C%22%7B%5C%5C%5C%22api_key%5C%5C%5C%22%3A%5C%5C%5C%221fea2c06cad29a7a2ff47ed9c5b1b5cc%5C%5C%5C%22%2C%5C%5C%5C%22store%5C%5C%5C%22%3A%5C%5C%5C%22binhnt-dev.myshopify.com%5C%5C%5C%22%2C%5C%5C%5C%22scope%5C%5C%5C%22%3A%5C%5C%5C%22omegatheme%5C%5C%5C%22%7D%5C%22%2C%5C%22role%5C%22%3A%5C%22admin%5C%22%2C%5C%22source%5C%22%3A%5C%22admin%5C%22%2C%5C%22token%5C%22%3A%5C%22eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjksInVzZXJuYW1lIjoiYmluaG50IiwiaWF0IjoxNzUxNDQ4NzMxLCJleHAiOjE3NTIwNTM1MzF9.pH86e8wuuzPcB949FYhnjQR0LuYnSbHmFHXlPbISeYM%5C%22%7D%22&type=1&criteria=1&priority=1",
+    "method": "GET",
+    "runCount": 8,
+    "averageResponseTime": "335.73",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 8
+    },
+    "sampleResponseData": null
+  },
+  {
+    "url": "https://apps-shopify.ipblocker.io/s/api/setting/list?shop=binhnt-dev.myshopify.com&urlParams=%22%7B%5C%22store%5C%22%3A%5C%22binhnt-dev.myshopify.com%5C%22%2C%5C%22urlParams%5C%22%3A%5C%22%7B%5C%5C%5C%22api_key%5C%5C%5C%22%3A%5C%5C%5C%221fea2c06cad29a7a2ff47ed9c5b1b5cc%5C%5C%5C%22%2C%5C%5C%5C%22store%5C%5C%5C%22%3A%5C%5C%5C%22binhnt-dev.myshopify.com%5C%5C%5C%22%2C%5C%5C%5C%22scope%5C%5C%5C%22%3A%5C%5C%5C%22omegatheme%5C%5C%5C%22%7D%5C%22%2C%5C%22role%5C%22%3A%5C%22admin%5C%22%2C%5C%22source%5C%22%3A%5C%22admin%5C%22%2C%5C%22token%5C%22%3A%5C%22eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjksInVzZXJuYW1lIjoiYmluaG50IiwiaWF0IjoxNzUxNDQ4NzMxLCJleHAiOjE3NTIwNTM1MzF9.pH86e8wuuzPcB949FYhnjQR0LuYnSbHmFHXlPbISeYM%5C%22%7D%22&search=&type=&criteria=&perPage=10&page=1&sort=DESC&sortBy=createdAt",
+    "method": "GET",
+    "runCount": 8,
+    "averageResponseTime": "342.62",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 8
+    },
+    "sampleResponseData": null
+  },
+  {
+    "url": "https://apps-shopify.ipblocker.io/s/api/setting/list?shop=binhnt-dev.myshopify.com&urlParams=%22%7B%5C%22store%5C%22%3A%5C%22binhnt-dev.myshopify.com%5C%22%2C%5C%22urlParams%5C%22%3A%5C%22%7B%5C%5C%5C%22api_key%5C%5C%5C%22%3A%5C%5C%5C%221fea2c06cad29a7a2ff47ed9c5b1b5cc%5C%5C%5C%22%2C%5C%5C%5C%22store%5C%5C%5C%22%3A%5C%5C%5C%22binhnt-dev.myshopify.com%5C%5C%5C%22%2C%5C%5C%5C%22scope%5C%5C%5C%22%3A%5C%5C%5C%22omegatheme%5C%5C%5C%22%7D%5C%22%2C%5C%22role%5C%22%3A%5C%22admin%5C%22%2C%5C%22source%5C%22%3A%5C%22admin%5C%22%2C%5C%22token%5C%22%3A%5C%22eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjksInVzZXJuYW1lIjoiYmluaG50IiwiaWF0IjoxNzUxNDQ4NzMxLCJleHAiOjE3NTIwNTM1MzF9.pH86e8wuuzPcB949FYhnjQR0LuYnSbHmFHXlPbISeYM%5C%22%7D%22&search=&type=&criteria=&perPage=10&page=1&sort=DESC&sortBy=createdAt&priority=1",
+    "method": "GET",
+    "runCount": 8,
+    "averageResponseTime": "354.80",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 8
+    },
+    "sampleResponseData": null
+  },
+  {
+    "url": "https://apps-shopify.ipblocker.io/s/api/block-checkout/rule/list?shop=binhnt-dev.myshopify.com&urlParams=%22%7B%5C%22store%5C%22%3A%5C%22binhnt-dev.myshopify.com%5C%22%2C%5C%22urlParams%5C%22%3A%5C%22%7B%5C%5C%5C%22api_key%5C%5C%5C%22%3A%5C%5C%5C%221fea2c06cad29a7a2ff47ed9c5b1b5cc%5C%5C%5C%22%2C%5C%5C%5C%22store%5C%5C%5C%22%3A%5C%5C%5C%22binhnt-dev.myshopify.com%5C%5C%5C%22%2C%5C%5C%5C%22scope%5C%5C%5C%22%3A%5C%5C%5C%22omegatheme%5C%5C%5C%22%7D%5C%22%2C%5C%22role%5C%22%3A%5C%22admin%5C%22%2C%5C%22source%5C%22%3A%5C%22admin%5C%22%2C%5C%22token%5C%22%3A%5C%22eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjksInVzZXJuYW1lIjoiYmluaG50IiwiaWF0IjoxNzUxNDQ4NzMxLCJleHAiOjE3NTIwNTM1MzF9.pH86e8wuuzPcB949FYhnjQR0LuYnSbHmFHXlPbISeYM%5C%22%7D%22&identifierId=binhnt-dev.myshopify.com&page=1&perPage=10&sortDirection=DESC",
+    "method": "GET",
+    "runCount": 7,
+    "averageResponseTime": "356.77",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 7
+    },
+    "sampleResponseData": null
+  },
+  {
+    "url": "https://apps-shopify.ipblocker.io/s/api/location/countries?shop=binhnt-dev.myshopify.com&urlParams=%22%7B%5C%22store%5C%22%3A%5C%22binhnt-dev.myshopify.com%5C%22%2C%5C%22urlParams%5C%22%3A%5C%22%7B%5C%5C%5C%22api_key%5C%5C%5C%22%3A%5C%5C%5C%221fea2c06cad29a7a2ff47ed9c5b1b5cc%5C%5C%5C%22%2C%5C%5C%5C%22store%5C%5C%5C%22%3A%5C%5C%5C%22binhnt-dev.myshopify.com%5C%5C%5C%22%2C%5C%5C%5C%22scope%5C%5C%5C%22%3A%5C%5C%5C%22omegatheme%5C%5C%5C%22%7D%5C%22%2C%5C%22role%5C%22%3A%5C%22admin%5C%22%2C%5C%22source%5C%22%3A%5C%22admin%5C%22%2C%5C%22token%5C%22%3A%5C%22eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjksInVzZXJuYW1lIjoiYmluaG50IiwiaWF0IjoxNzUxNDQ4NzMxLCJleHAiOjE3NTIwNTM1MzF9.pH86e8wuuzPcB949FYhnjQR0LuYnSbHmFHXlPbISeYM%5C%22%7D%22&page=1&perPage=1000",
+    "method": "GET",
+    "runCount": 5,
+    "averageResponseTime": "351.92",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 5
+    },
+    "sampleResponseData": "{\"state\":1,\"msg\":\"successfully\",\"meta\":{\"currentPage\":1,\"perPage\":1000,\"totalItems\":241,\"totalPages\":1,\"itemCount\":241},\"result\":[{\"countryCode\":\"BD\",\"countryName\":\"Bangladesh\"},{\"countryCode\":\"PW\",\"countryName\":\"Palau\"},{\"countryCode\":\"KZ\",\"countryName\":\"Kazakhstan\"},{\"countryCode\":\"SK\",\"countryName\":\"Slovakia\"},{\"countryCode\":\"CW\",\"countryName\":\"Curacao\"},{\"countryCode\":\"LS\",\"countryName\":\"Lesotho\"},{\"countryCode\":\"DE\",\"countryName\":\"Germany\"},{\"countryCode\":\"AS\",\"countryName\":\"American Samoa\""
+  },
+  {
+    "url": "https://apps-shopify.ipblocker.io/s/api/user/crs-banner-to-show?shop=binhnt-dev.myshopify.com&urlParams=%22%7B%5C%22store%5C%22%3A%5C%22binhnt-dev.myshopify.com%5C%22%2C%5C%22urlParams%5C%22%3A%5C%22%7B%5C%5C%5C%22api_key%5C%5C%5C%22%3A%5C%5C%5C%221fea2c06cad29a7a2ff47ed9c5b1b5cc%5C%5C%5C%22%2C%5C%5C%5C%22store%5C%5C%5C%22%3A%5C%5C%5C%22binhnt-dev.myshopify.com%5C%5C%5C%22%2C%5C%5C%5C%22scope%5C%5C%5C%22%3A%5C%5C%5C%22omegatheme%5C%5C%5C%22%7D%5C%22%2C%5C%22role%5C%22%3A%5C%22admin%5C%22%2C%5C%22source%5C%22%3A%5C%22admin%5C%22%2C%5C%22token%5C%22%3A%5C%22eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjksInVzZXJuYW1lIjoiYmluaG50IiwiaWF0IjoxNzUxNDQ4NzMxLCJleHAiOjE3NTIwNTM1MzF9.pH86e8wuuzPcB949FYhnjQR0LuYnSbHmFHXlPbISeYM%5C%22%7D%22&sessionId=",
+    "method": "GET",
+    "runCount": 5,
+    "averageResponseTime": "1560.76",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 5
+    },
+    "sampleResponseData": "{\"state\":1,\"msg\":\"successfully\",\"banner\":\"blockify-checkout-rules\",\"sessionId\":\"\"}"
+  },
+  {
+    "url": "https://apps-shopify.ipblocker.io/s/api/user/crs-banner-to-show?shop=binhnt-dev.myshopify.com&urlParams=%22%7B%5C%22store%5C%22%3A%5C%22binhnt-dev.myshopify.com%5C%22%2C%5C%22urlParams%5C%22%3A%5C%22%7B%5C%5C%5C%22api_key%5C%5C%5C%22%3A%5C%5C%5C%221fea2c06cad29a7a2ff47ed9c5b1b5cc%5C%5C%5C%22%2C%5C%5C%5C%22store%5C%5C%5C%22%3A%5C%5C%5C%22binhnt-dev.myshopify.com%5C%5C%5C%22%2C%5C%5C%5C%22scope%5C%5C%5C%22%3A%5C%5C%5C%22omegatheme%5C%5C%5C%22%7D%5C%22%2C%5C%22role%5C%22%3A%5C%22admin%5C%22%2C%5C%22source%5C%22%3A%5C%22admin%5C%22%2C%5C%22token%5C%22%3A%5C%22eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjksInVzZXJuYW1lIjoiYmluaG50IiwiaWF0IjoxNzUxNDQ4NzMxLCJleHAiOjE3NTIwNTM1MzF9.pH86e8wuuzPcB949FYhnjQR0LuYnSbHmFHXlPbISeYM%5C%22%7D%22&sessionId=&currentBanner=blockify-checkout-rules",
+    "method": "GET",
+    "runCount": 3,
+    "averageResponseTime": "1697.81",
+    "averageResponseSize": "unknown",
+    "mostCommonStatus": "200",
+    "statusDistribution": {
+      "200": 3
+    },
+    "sampleResponseData": "{\"state\":1,\"msg\":\"successfully\",\"banner\":\"blockify-checkout-rules\",\"sessionId\":\"\"}"
+  }
+]

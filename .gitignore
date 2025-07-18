@@ -1,0 +1,12 @@
+**/node_modules/
+**/dist/
+**/build/
+**/coverage/
+**/logs/
+**/temp/
+**/tmp/
+**/out/
+**/cache/
+**/.DS_Store
+**/.env
+**/.vscode/
