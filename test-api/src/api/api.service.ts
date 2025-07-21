@@ -5,7 +5,7 @@ import * as path from 'path';
 import { format } from '@fast-csv/format';
 import { WebSocketGateway, WebSocketServer } from '@nestjs/websockets';
 import { Server } from 'socket.io';
-import { extractIpRangeAWSToDecimal, getIPRange, getRandomUserAgent, IIpRageResult, randomArray, sleep } from '../utils';
+import { extractIpRangeAWSToDecimal, getIPRange, getRandomIP, getRandomUserAgent, IIpRageResult, randomArray, sleep } from '../utils';
 
 interface AmazonIP {
   ip_prefix?: string;
@@ -205,11 +205,11 @@ export class ApiService {
 
   async testIP(shop: string, runCount: number, domain: string) {
     const accessUrl = `https://${shop}/test-ips`;
-    const amazonIPs = await this.getAmazonIP(runCount);
-    const ipsToTest = randomArray(amazonIPs, 10);
+    // const amazonIPs = await this.getAmazonIP(runCount);
+    // const ipsToTest = randomArray(amazonIPs, 10);
 
-    for (let i = 0; i < ipsToTest.length; i++) {
-      const ipAddress = amazonIPs[i];
+    for (let i = 0; i < 10; i++) {
+      const ipAddress = getRandomIP();
       console.log('🚀 ~ testIP ~ ipAddress:', ipAddress);
       const result = await fetch(`${domain}/api/block/check-ip`, {
         headers: {
@@ -228,7 +228,7 @@ export class ApiService {
     }
     return {
       message: `Test completed for ${shop} with ${runCount} runs.`,
-      totalIPsTested: amazonIPs.length,
+      totalIPsTested: 10,
       accessUrl,
     };
   }

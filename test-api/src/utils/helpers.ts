@@ -403,3 +403,48 @@ export const randomArray = <T>(array: T[], count: number): T[] => {
   const shuffled = [...array].sort(() => 0.5 - Math.random());
   return shuffled.slice(0, count);
 };
+
+export const getRandomIP = (): string => {
+  const isIPv6 = Math.random() < 0.5;
+  return isIPv6 ? getRandomPublicIPv6() : getRandomPublicIPv4();
+};
+
+// Tạo IPv4 công khai
+const getRandomPublicIPv4=(): string =>{
+  while (true) {
+    const octets = Array.from({ length: 4 }, () => Math.floor(Math.random() * 256));
+    const [a, b] = octets;
+
+    // Loại trừ IP local/internal
+    if (
+      a === 10 || // 10.0.0.0/8
+      (a === 172 && b >= 16 && b <= 31) || // 172.16.0.0/12
+      (a === 192 && b === 168) || // 192.168.0.0/16
+      a === 127 || // 127.0.0.0/8 (loopback)
+      a === 0 // 0.0.0.0/8 (invalid)
+    ) {
+      continue;
+    }
+
+    return octets.join('.');
+  }
+}
+
+// Tạo IPv6 công khai
+function getRandomPublicIPv6(): string {
+  while (true) {
+    const hextets = Array.from({ length: 8 }, () => Math.floor(Math.random() * 0x10000).toString(16));
+
+    const first = parseInt(hextets[0], 16);
+
+    // Loại trừ fc00::/7 và ::1 (loopback)
+    if (
+      (first & 0xfe00) === 0xfc00 || // fc00::/7
+      hextets.join(':') === '0:0:0:0:0:0:0:1'
+    ) {
+      continue;
+    }
+
+    return hextets.join(':');
+  }
+}
