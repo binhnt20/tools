@@ -208,7 +208,7 @@ export class ApiService {
     const amazonIPs = await this.getAmazonIP(runCount);
     console.log('🚀 ~ testIP ~ amazonIPs:', amazonIPs.length);
 
-    for (let i = 0; i < amazonIPs?.length; i++) {
+    for (let i = 0; i < (amazonIPs?.length <= 10 ? amazonIPs.length : 10); i++) {
       const ipAddress = amazonIPs[i];
       console.log('🚀 ~ testIP ~ ipAddress:', ipAddress);
       const result = await fetch(`${domain}/api/block/check-ip`, {
@@ -221,7 +221,6 @@ export class ApiService {
         body: JSON.stringify({ ipAddress, identifierId: shop, accessUrl }),
       });
       const data = await result.json();
-      console.log('🚀 ~ testIP ~ result:', data);
 
       // Random delay từ 1 đến 3 giây
       // const delayMs = 1000 + Math.floor(Math.random() * 1000);
